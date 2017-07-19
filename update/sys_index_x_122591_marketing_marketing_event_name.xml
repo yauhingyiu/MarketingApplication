@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_index">
+    <sys_index action="INSERT_OR_UPDATE">
+        <col_name_string>name</col_name_string>
+        <index_col_name element="name" name="x_122591_marketing_marketing_event">e19d87dddba232009bdb5740cf961947</index_col_name>
+        <logical_table_name>x_122591_marketing_marketing_event</logical_table_name>
+        <sys_class_name>sys_index</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-05-09 04:10:30</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>99c1e8badb6632009bdb5740cf961937</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_122591_marketing_marketing_event</sys_name>
+        <sys_package display_value="Marketing Events Application" source="x_122591_marketing">d85d079ddb2232009bdb5740cf961963</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Marketing Events Application">d85d079ddb2232009bdb5740cf961963</sys_scope>
+        <sys_update_name>sys_index_x_122591_marketing_marketing_event_name</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-05-09 04:10:30</sys_updated_on>
+        <table display_value="Marketing Event" name="x_122591_marketing_marketing_event">899dc759dbe232009bdb5740cf9619c9</table>
+        <unique_index>false</unique_index>
+    </sys_index>
+</record_update>

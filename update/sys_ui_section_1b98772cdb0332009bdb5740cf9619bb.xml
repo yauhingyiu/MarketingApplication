@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Notes" section_id="1b98772cdb0332009bdb5740cf9619bb" sys_domain="global" table="x_122591_marketing_tb_sakatsuku_player" version="3" view="yhyview1">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-06-23 03:46:15</sys_created_on>
+            <sys_id>78cb8c99db2332009bdb5740cf9619dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-06-23 03:46:15</sys_updated_on>
+            <text>Please download sakatsuku shoot 2017 via Android / IOS market</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>78cb8c99db2332009bdb5740cf9619dd</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-06-23 03:46:15</sys_created_on>
+            <sys_id>f8cb8c99db2332009bdb5740cf9619dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_122591_marketing_tb_sakatsuku_player" sys_domain="global" view="c327332cdb0332009bdb5740cf96195c">1b98772cdb0332009bdb5740cf9619bb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-06-23 03:46:15</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-06-23 03:46:15</sys_created_on>
+            <sys_id>7ccb8c99db2332009bdb5740cf9619dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_122591_marketing_tb_sakatsuku_player" sys_domain="global" view="c327332cdb0332009bdb5740cf96195c">1b98772cdb0332009bdb5740cf9619bb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-06-23 03:46:15</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-06-23 03:46:15</sys_created_on>
+            <sys_id>fccb8c99db2332009bdb5740cf9619dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_122591_marketing_tb_sakatsuku_player" sys_domain="global" view="c327332cdb0332009bdb5740cf96195c">1b98772cdb0332009bdb5740cf9619bb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-06-23 03:46:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>player_version</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-06-23 03:46:15</sys_created_on>
+            <sys_id>41cb8c99db2332009bdb5740cf9619de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_122591_marketing_tb_sakatsuku_player" sys_domain="global" view="c327332cdb0332009bdb5740cf96195c">1b98772cdb0332009bdb5740cf9619bb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-06-23 03:46:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>rarity</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-06-23 03:46:15</sys_created_on>
+            <sys_id>c1cb8c99db2332009bdb5740cf9619de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_122591_marketing_tb_sakatsuku_player" sys_domain="global" view="c327332cdb0332009bdb5740cf96195c">1b98772cdb0332009bdb5740cf9619bb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-06-23 03:46:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>realrarity</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-06-23 03:46:15</sys_created_on>
+            <sys_id>45cb8c99db2332009bdb5740cf9619de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_122591_marketing_tb_sakatsuku_player" sys_domain="global" view="c327332cdb0332009bdb5740cf96195c">1b98772cdb0332009bdb5740cf9619bb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-06-23 03:46:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-06-23 03:46:15</sys_created_on>
+            <sys_id>c5cb8c99db2332009bdb5740cf9619de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_122591_marketing_tb_sakatsuku_player" sys_domain="global" view="c327332cdb0332009bdb5740cf96195c">1b98772cdb0332009bdb5740cf9619bb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-06-23 03:46:15</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>skill01</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-06-23 03:46:15</sys_created_on>
+            <sys_id>49cb8c99db2332009bdb5740cf9619de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_122591_marketing_tb_sakatsuku_player" sys_domain="global" view="c327332cdb0332009bdb5740cf96195c">1b98772cdb0332009bdb5740cf9619bb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-06-23 03:46:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>skill02</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-06-23 03:46:15</sys_created_on>
+            <sys_id>c9cb8c99db2332009bdb5740cf9619de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_122591_marketing_tb_sakatsuku_player" sys_domain="global" view="c327332cdb0332009bdb5740cf96195c">1b98772cdb0332009bdb5740cf9619bb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-06-23 03:46:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_created_by</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-06-23 03:46:15</sys_created_on>
+            <sys_id>4dcb8c99db2332009bdb5740cf9619de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_122591_marketing_tb_sakatsuku_player" sys_domain="global" view="c327332cdb0332009bdb5740cf96195c">1b98772cdb0332009bdb5740cf9619bb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-06-23 03:46:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Notes</caption>
+            <header>false</header>
+            <name>x_122591_marketing_tb_sakatsuku_player</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-27 16:34:14</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1b98772cdb0332009bdb5740cf9619bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Notes</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Marketing Events Application" source="x_122591_marketing">d85d079ddb2232009bdb5740cf961963</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Marketing Events Application">d85d079ddb2232009bdb5740cf961963</sys_scope>
+            <sys_update_name>sys_ui_section_1b98772cdb0332009bdb5740cf9619bb</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-27 16:34:14</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="YhyView1" name="yhyview1">c327332cdb0332009bdb5740cf96195c</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

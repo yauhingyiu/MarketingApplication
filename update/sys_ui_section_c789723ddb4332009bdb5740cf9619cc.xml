@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="c789723ddb4332009bdb5740cf9619cc" sys_domain="global" table="x_122591_marketing_tb_sakatsuku_player_2" version="3" view="vw_sakatsuku_admin">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-31 09:11:17</sys_created_on>
+            <sys_id>f999363ddb4332009bdb5740cf961918</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_122591_marketing_tb_sakatsuku_player_2" sys_domain="global" view="0f89723ddb4332009bdb5740cf9619cb">c789723ddb4332009bdb5740cf9619cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-31 09:11:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>player_version</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-31 09:11:17</sys_created_on>
+            <sys_id>7d99363ddb4332009bdb5740cf961918</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_122591_marketing_tb_sakatsuku_player_2" sys_domain="global" view="0f89723ddb4332009bdb5740cf9619cb">c789723ddb4332009bdb5740cf9619cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-31 09:11:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>rarity</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-31 09:11:17</sys_created_on>
+            <sys_id>fd99363ddb4332009bdb5740cf961918</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_122591_marketing_tb_sakatsuku_player_2" sys_domain="global" view="0f89723ddb4332009bdb5740cf9619cb">c789723ddb4332009bdb5740cf9619cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-31 09:11:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>real_rarity</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-31 09:11:17</sys_created_on>
+            <sys_id>7199363ddb4332009bdb5740cf961919</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_122591_marketing_tb_sakatsuku_player_2" sys_domain="global" view="0f89723ddb4332009bdb5740cf9619cb">c789723ddb4332009bdb5740cf9619cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-31 09:11:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>skill01</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-31 09:11:17</sys_created_on>
+            <sys_id>f199363ddb4332009bdb5740cf961919</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_122591_marketing_tb_sakatsuku_player_2" sys_domain="global" view="0f89723ddb4332009bdb5740cf9619cb">c789723ddb4332009bdb5740cf9619cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-31 09:11:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>skill02</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-31 09:11:17</sys_created_on>
+            <sys_id>7599363ddb4332009bdb5740cf961919</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_122591_marketing_tb_sakatsuku_player_2" sys_domain="global" view="0f89723ddb4332009bdb5740cf9619cb">c789723ddb4332009bdb5740cf9619cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-31 09:11:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-31 09:11:17</sys_created_on>
+            <sys_id>f599363ddb4332009bdb5740cf961919</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_122591_marketing_tb_sakatsuku_player_2" sys_domain="global" view="0f89723ddb4332009bdb5740cf9619cb">c789723ddb4332009bdb5740cf9619cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-31 09:11:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-31 09:11:17</sys_created_on>
+            <sys_id>7999363ddb4332009bdb5740cf961919</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="x_122591_marketing_tb_sakatsuku_player_2" sys_domain="global" view="0f89723ddb4332009bdb5740cf9619cb">c789723ddb4332009bdb5740cf9619cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-31 09:11:17</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_122591_marketing_tb_sakatsuku_player_2</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-31 09:11:05</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c789723ddb4332009bdb5740cf9619cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_122591_marketing_tb_sakatsuku_player_2</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Marketing Events Application" source="x_122591_marketing">d85d079ddb2232009bdb5740cf961963</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Marketing Events Application">d85d079ddb2232009bdb5740cf961963</sys_scope>
+            <sys_update_name>sys_ui_section_c789723ddb4332009bdb5740cf9619cc</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-31 09:11:05</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="vw_sakatsuku_admin" name="vw_sakatsuku_admin">0f89723ddb4332009bdb5740cf9619cb</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

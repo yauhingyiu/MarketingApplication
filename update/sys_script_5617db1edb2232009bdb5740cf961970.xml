@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_122591_marketing_marketing_event</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Marketing Event set status</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+	var budget = current.budget;
+	var sponsor = current.sponsor;
+
+	var n_attendee = 0;
+	
+	var attendees = new GlideAggregate('x_122591_marketing_attendee');
+	attendees.addQuery('marketing_event', current.sys_id);
+	attendees.addAggregate('COUNT');
+	attendees.query();
+	if(attendees.next())
+	{
+		n_attendee = attendees.getAggregate('COUNT');
+	}
+	
+	gs.addInfoMessage('[BR Marketing Event set status] '
+		+'budget ' + budget 
+		+', sponsor ' + sponsor
+		+', n_attendee ' + n_attendee
+	);
+	if( !budget || !sponsor || n_attendee==0 )
+	{
+		current.status = 'New';
+	}
+	else
+	{
+		current.status = 'Planning';
+	}
+
+	//current.update();
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-05-08 04:12:15</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5617db1edb2232009bdb5740cf961970</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Marketing Event set status</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Marketing Events Application" source="x_122591_marketing">d85d079ddb2232009bdb5740cf961963</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Marketing Events Application">d85d079ddb2232009bdb5740cf961963</sys_scope>
+        <sys_update_name>sys_script_5617db1edb2232009bdb5740cf961970</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-05-08 04:25:09</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=5617db1edb2232009bdb5740cf961970"/>
+</record_update>

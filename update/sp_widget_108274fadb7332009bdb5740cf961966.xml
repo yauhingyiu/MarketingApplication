@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <client_script><![CDATA[function() {
+  /* widget controller */
+  var c = this;
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description>widget_yhy1</description>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>widget-yhy1</id>
+        <internal>false</internal>
+        <link/>
+        <name>widget_yhy1</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-07-10 08:43:28</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>108274fadb7332009bdb5740cf961966</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>widget_yhy1</sys_name>
+        <sys_package display_value="Marketing Events Application" source="x_122591_marketing">d85d079ddb2232009bdb5740cf961963</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Marketing Events Application">d85d079ddb2232009bdb5740cf961963</sys_scope>
+        <sys_update_name>sp_widget_108274fadb7332009bdb5740cf961966</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-07-10 08:43:28</sys_updated_on>
+        <template><![CDATA[<div>
+<!-- your widget template -->
+  <table>
+    <tr>
+      <td>column 1</td>
+    </tr>
+  </table>
+</div>
+]]></template>
+    </sp_widget>
+</record_update>

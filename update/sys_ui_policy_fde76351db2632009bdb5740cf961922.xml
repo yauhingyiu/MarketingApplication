@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_122591_marketing_equipment_request">marketing_eventISNOTEMPTY^EQ<item endquery="false" field="marketing_event" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition()
+{
+	if( g_form.getValue('needed_from') == ''|| g_form.getValue('needed_until') == '' )
+	{
+		g_form.addInfoMessage('Remember to allow time for pick-up and return of rental equipment.');
+	}
+}]]></script_true>
+        <set_values/>
+        <short_description>Hide mandatory 'Needed' fields until a marketing event is selected</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-05-05 02:47:25</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fde76351db2632009bdb5740cf961922</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Hide mandatory 'Needed' fields until a marketing event is selected</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Marketing Events Application" source="x_122591_marketing">d85d079ddb2232009bdb5740cf961963</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Marketing Events Application">d85d079ddb2232009bdb5740cf961963</sys_scope>
+        <sys_update_name>sys_ui_policy_fde76351db2632009bdb5740cf961922</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-05-25 03:38:06</sys_updated_on>
+        <table>x_122591_marketing_equipment_request</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

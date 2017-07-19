@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_properties_category_m2m">
+    <sys_properties_category_m2m action="INSERT_OR_UPDATE">
+        <category display_value="Marketing Events Properties">6c285a8edb0732009bdb5740cf961985</category>
+        <order>100</order>
+        <property display_value="x_122591_marketing.isRareFestival" name="x_122591_marketing.isRareFestival">67689a8edb0732009bdb5740cf9619d3</property>
+        <sys_class_name>sys_properties_category_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-06-01 01:27:02</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>43e89a8edb0732009bdb5740cf96196d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_122591_marketing.isRareFestival.Marketing Events Properties</sys_name>
+        <sys_package display_value="Marketing Events Application" source="x_122591_marketing">d85d079ddb2232009bdb5740cf961963</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Marketing Events Application">d85d079ddb2232009bdb5740cf961963</sys_scope>
+        <sys_update_name>sys_properties_category_m2m_43e89a8edb0732009bdb5740cf96196d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-06-01 01:27:02</sys_updated_on>
+    </sys_properties_category_m2m>
+</record_update>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Marketing Event" max_length="40" name="x_122591_marketing_marketing_event" type="collection">
+        <element label="Budget" max_length="40" name="budget" type="currency"/>
+        <element attributes="omit_sys_original=true" label="Budget remaining" max_length="15" name="budget_remaining" read_only="true" type="currency"/>
+        <element choice="1" label="City" max_length="40" name="city" type="choice">
+            <choice>
+                <element label="Tokyo" value="Tokyo"/>
+                <element label="Dallas" sequence="0" value="Dallas"/>
+                <element label="Kansas City" sequence="1" value="Kansas City"/>
+                <element label="London說明" sequence="2" value="London說明"/>
+                <element label="San Jose" sequence="3" value="San Jose"/>
+                <element label="Portland" sequence="4" value="Portland"/>
+                <element label="Sydney" sequence="5" value="Sydney"/>
+            </choice>
+        </element>
+        <element label="End date" max_length="40" name="end_date" type="glide_date"/>
+        <element label="Event coordinator" mandatory="true" max_length="32" name="event_coordinator" reference="sys_user" type="reference"/>
+        <element attributes="omit_sys_original=true" label="Event Cost" max_length="15" name="event_cost" read_only="true" type="currency"/>
+        <element display="true" label="Name" mandatory="true" max_length="40" name="name" type="string"/>
+        <element label="Max capacity" max_length="40" name="number_of_attendees_expected" type="integer"/>
+        <element label="Attendees registered" max_length="40" name="number_of_attendees_registered" type="integer"/>
+        <element label="Sponsor" max_length="40" name="sponsor" type="string"/>
+        <element label="Start date" max_length="40" name="start_date" type="glide_date"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element label="New" sequence="10" value="New"/>
+                <element label="Planning" sequence="20" value="Planning"/>
+                <element label="Complete" sequence="30" value="Complete"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="event_coordinator"/>
+        </index>
+        <index name="index2">
+            <element name="name"/>
+        </index>
+    </element>
+</database>

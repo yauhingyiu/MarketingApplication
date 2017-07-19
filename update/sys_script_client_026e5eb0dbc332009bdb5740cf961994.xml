@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>rarity</field>
+        <global>true</global>
+        <messages/>
+        <name>cs_sakatsuku_rarity_onchange</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if (newValue === '') {
+		return;
+	}
+	//Type appropriate comment here, and begin script below
+	var realrarity = g_form.getValue('realrarity');
+	g_form.clearOptions('realrarity');
+	g_form.addOption('realrarity', '', '-- None --');
+	if(newValue=='3')
+	{
+		g_form.addOption('realrarity', 'real3', 'Real 3 Star');
+		g_form.addOption('realrarity', 'fake3', 'Fake 3 Star');
+	}
+	if(isLoading && !g_form.isNewRecord())
+	{
+		g_form.setValue('realrarity', realrarity);
+	}
+	g_form.showFieldMsg('realrarity','Some players are fake samsung www.','info');
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-05-28 04:41:37</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>026e5eb0dbc332009bdb5740cf961994</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>cs_sakatsuku_rarity_onchange</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Marketing Events Application" source="x_122591_marketing">d85d079ddb2232009bdb5740cf961963</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Marketing Events Application">d85d079ddb2232009bdb5740cf961963</sys_scope>
+        <sys_update_name>sys_script_client_026e5eb0dbc332009bdb5740cf961994</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-06-26 08:09:20</sys_updated_on>
+        <table>x_122591_marketing_tb_sakatsuku_player_2</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

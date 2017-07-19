@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>290fc399dbe232009bdb5740cf96191f</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_122591_marketing_marketing_event">
+    <x_122591_marketing_marketing_event action="INSERT_OR_UPDATE">
+        <budget>312</budget>
+        <budget_remaining>-788</budget_remaining>
+        <city>Dallas</city>
+        <end_date>2017-05-06</end_date>
+        <event_coordinator/>
+        <event_cost>1100</event_cost>
+        <name>market 1</name>
+        <number_of_attendees_expected>2</number_of_attendees_expected>
+        <number_of_attendees_registered>2</number_of_attendees_registered>
+        <sponsor>naka</sponsor>
+        <start_date>2017-05-03</start_date>
+        <status/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-05-05 00:57:40</sys_created_on>
+        <sys_id>290fc399dbe232009bdb5740cf96191f</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-05-05 07:22:00</sys_updated_on>
+    </x_122591_marketing_marketing_event>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-05-11 09:27:06</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>666d7713db2272009bdb5740cf9619a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>market 1</sys_name>
+        <sys_package display_value="Marketing Events Application" source="x_122591_marketing">d85d079ddb2232009bdb5740cf961963</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Marketing Events Application">d85d079ddb2232009bdb5740cf961963</sys_scope>
+        <sys_update_name>sys_metadata_link_666d7713db2272009bdb5740cf9619a5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-05-11 09:27:06</sys_updated_on>
+        <tablename>x_122591_marketing_marketing_event</tablename>
+    </sys_metadata_link>
+</record_update>

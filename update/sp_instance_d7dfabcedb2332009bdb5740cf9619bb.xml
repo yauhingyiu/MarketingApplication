@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>0</order>
+        <short_description>Hello</short_description>
+        <size>md</size>
+        <sp_column display_value="1">56df6706db2332009bdb5740cf96192e</sp_column>
+        <sp_widget display_value="Homepage Search">200fbd96cb20020000f8d856634c9ca1</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-06-26 04:18:16</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>d7dfabcedb2332009bdb5740cf9619bb</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Welcome to CUHK</sys_name>
+        <sys_package display_value="Marketing Events Application" source="x_122591_marketing">d85d079ddb2232009bdb5740cf961963</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Marketing Events Application">d85d079ddb2232009bdb5740cf961963</sys_scope>
+        <sys_update_name>sp_instance_d7dfabcedb2332009bdb5740cf9619bb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-06-26 04:22:19</sys_updated_on>
+        <title>Welcome to CUHK</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+</record_update>

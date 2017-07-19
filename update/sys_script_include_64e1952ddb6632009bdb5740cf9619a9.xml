@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_122591_marketing.recalculateAttendee</api_name>
+        <client_callable>false</client_callable>
+        <description>Recalculate attendee after add / delete</description>
+        <name>recalculateAttendee</name>
+        <script><![CDATA[var recalculateAttendee = Class.create();
+recalculateAttendee.prototype = {
+    initialize: function( mrkevent ) {
+		this.mrkevent = mrkevent;
+    },
+
+	addAttendees: function() 
+	{
+		//Get marketing event from event
+		var mrkevent = new GlideRecord('x_122591_marketing_marketing_event');
+		mrkevent.get(this.mrkevent);
+		//Count attendees for marketing event
+		var numOfAttendees = 0;
+		var attendees = new GlideAggregate('x_122591_marketing_attendee');
+		attendees.addQuery('marketing_event', this.mrkevent);
+		attendees.addAggregate('COUNT');
+		attendees.query();
+		if(attendees.next())
+		{
+			numOfAttendees = attendees.getAggregate('COUNT');
+		}
+
+		//Set attendees registered field
+		mrkevent.number_of_attendees_registered = numOfAttendees;
+		mrkevent.update();
+	},
+    type: 'recalculateAttendee'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-05-05 10:31:17</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>64e1952ddb6632009bdb5740cf9619a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>recalculateAttendee</sys_name>
+        <sys_package display_value="Marketing Events Application" source="x_122591_marketing">d85d079ddb2232009bdb5740cf961963</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Marketing Events Application">d85d079ddb2232009bdb5740cf961963</sys_scope>
+        <sys_update_name>sys_script_include_64e1952ddb6632009bdb5740cf9619a9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-05-05 10:31:17</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Add Attendees" max_length="40" name="x_122591_marketing_add_attendees" type="collection">
+        <element attributes="import_attribute_name=u_company,edge_encryption_enabled=true" label="Company" max_length="40" name="u_company" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Demo Evangelist" max_length="40" name="u_demo_evangelist" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Demo Location" max_length="40" name="u_demo_location" type="string"/>
+        <element attributes="import_attribute_name=u_email,edge_encryption_enabled=true" label="Email" max_length="40" name="u_email" type="string"/>
+        <element attributes="import_attribute_name=u_first_name,edge_encryption_enabled=true" label="First Name" max_length="40" name="u_first_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="HHD Identifier" max_length="40" name="u_hhd_identifier" type="string"/>
+        <element attributes="import_attribute_name=u_last_name,edge_encryption_enabled=true" label="Last Name" max_length="40" name="u_last_name" type="string"/>
+        <element attributes="import_attribute_name=u_marketing_event,edge_encryption_enabled=true" label="Marketing event" max_length="40" name="u_marketing_event" type="string"/>
+        <element attributes="import_attribute_name=u_name,edge_encryption_enabled=true" label="Name" max_length="40" name="u_name" type="string"/>
+        <element attributes="import_attribute_name=u_phone,edge_encryption_enabled=true" label="Phone" max_length="40" name="u_phone" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Prototype Number" max_length="40" name="u_prototype_number" type="string"/>
+    </element>
+</database>

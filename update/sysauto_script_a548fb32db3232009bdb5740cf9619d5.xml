@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>[Yhy] Marketing Events Reminder</name>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2017-05-22 06:03:22</run_start>
+        <run_time>1970-01-01 09:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[var n = new GlideDateTime();
+
+var iter_mrkevent = new GlideRecord('x_122591_marketing_marketing_event');
+iter_mrkevent.query();
+while(iter_mrkevent.next())
+{
+	var start_date = new GlideDateTime( iter_mrkevent.start_date );
+	if( start_date.compareTo( n )>0 )
+	{
+		start_date.addDaysUTC(-7);
+		if( n.compareTo( start_date )>=0 )
+		{
+			gs.eventQueue( 'x_122591_marketing.event_reminder', 
+				iter_mrkevent, 
+				iter_mrkevent.sys_id, 
+				iter_mrkevent.event_coordinator );
+		}
+	}
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-05-22 06:08:55</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>a548fb32db3232009bdb5740cf9619d5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>[Yhy] Marketing Events Reminder</sys_name>
+        <sys_package display_value="Marketing Events Application" source="x_122591_marketing">d85d079ddb2232009bdb5740cf961963</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Marketing Events Application">d85d079ddb2232009bdb5740cf961963</sys_scope>
+        <sys_update_name>sysauto_script_a548fb32db3232009bdb5740cf9619d5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-05-22 09:57:07</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

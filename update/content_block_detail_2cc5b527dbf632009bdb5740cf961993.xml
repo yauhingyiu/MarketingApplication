@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="content_block_detail">
+    <content_block_detail action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <condition/>
+        <conditional>false</conditional>
+        <frame display_value="cms_admin_home_frame">f1d6b294ef202000914304167b2256a0</frame>
+        <logged_on>false</logged_on>
+        <model_id/>
+        <model_table/>
+        <name>detailContent1</name>
+        <script/>
+        <sys_class_name>content_block_detail</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-05-24 04:29:26</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>2cc5b527dbf632009bdb5740cf961993</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>detailContent1</sys_name>
+        <sys_package display_value="Marketing Events Application" source="x_122591_marketing">d85d079ddb2232009bdb5740cf961963</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Marketing Events Application">d85d079ddb2232009bdb5740cf961963</sys_scope>
+        <sys_update_name>content_block_detail_2cc5b527dbf632009bdb5740cf961993</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-05-28 03:48:22</sys_updated_on>
+        <type>page</type>
+    </content_block_detail>
+</record_update>

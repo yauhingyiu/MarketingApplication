@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="cuhk_guest_user" max_length="40" name="x_122591_marketing_cuhk_guest_user" type="collection">
+        <element label="dept" max_length="50" name="dept" type="string"/>
+        <element label="name" max_length="50" name="name" type="string"/>
+    </element>
+</database>

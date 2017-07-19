@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Imp Tmpl X 122591 Marketing Cuhk Guest User Sub1" max_length="40" name="u_imp_tmpl_x_122591_marketing_cuhk_guest_user_sub1" type="collection">
+        <element attributes="import_attribute_name=Any IP restriction to the above URL,edge_encryption_enabled=true" label="Any IP restriction to the above URL" max_length="40" name="u_any_ip_restr__the_above_url" type="string"/>
+        <element attributes="import_attribute_name=Cuhk Guest User,edge_encryption_enabled=true" label="Cuhk Guest User" max_length="32" name="u_cuhk_guest_user" type="string"/>
+        <element attributes="import_attribute_name=Login URL for this user type/role,edge_encryption_enabled=true" label="Login URL for this user type/role" max_length="200" name="u_login_url_fo_user_type_role" type="string"/>
+        <element attributes="import_attribute_name=Name of user type/role,edge_encryption_enabled=true" label="Name of user type/role" max_length="50" name="u_name_of_user_type_role" type="string"/>
+        <element attributes="import_attribute_name=Password,edge_encryption_enabled=true" label="Password" max_length="50" name="u_password" type="string"/>
+        <element attributes="import_attribute_name=Username,edge_encryption_enabled=true" label="Username" max_length="50" name="u_username" type="string"/>
+        <element attributes="import_attribute_name=User role description,edge_encryption_enabled=true" label="User role description" max_length="200" name="u_user_role_description" type="string"/>
+    </element>
+</database>

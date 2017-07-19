@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="task" label="Tb Sakatsuku Player 2" max_length="40" name="x_122591_marketing_tb_sakatsuku_player_2" sizeclass="5" type="collection">
+        <element label="name" max_length="40" name="name" type="string"/>
+        <element choice="1" label="Player version" max_length="40" name="player_version" type="string">
+            <choice>
+                <element label="14-15" sequence="0" value="14-15"/>
+                <element label="15-16" sequence="1" value="15-16"/>
+                <element label="16-17" sequence="2" value="16-17"/>
+            </choice>
+        </element>
+        <element choice="1" default="5" label="Rarity" mandatory="true" max_length="40" name="rarity" type="integer">
+            <choice>
+                <element label="1 Star" sequence="0" value="1"/>
+                <element label="2 Star" sequence="1" value="2"/>
+                <element label="3 Star" sequence="2" value="3"/>
+                <element label="4 Star" sequence="3" value="4"/>
+                <element label="5 Star" sequence="4" value="5"/>
+            </choice>
+        </element>
+        <element label="Real Rarity" max_length="40" name="real_rarity" type="integer"/>
+        <element label="Skill01" max_length="40" name="skill01" type="string"/>
+        <element label="Skill02" max_length="40" name="skill02" type="string"/>
+    </element>
+</database>

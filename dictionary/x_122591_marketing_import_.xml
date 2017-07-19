@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Import Prototypes" max_length="40" name="x_122591_marketing_import_" type="collection">
+        <element attributes="import_attribute_name=Demo Evangelist,edge_encryption_enabled=true" label="Demo Evangelist" max_length="40" name="u_demo_evangelist" type="string"/>
+        <element attributes="import_attribute_name=Demo Location,edge_encryption_enabled=true" label="Demo Location" max_length="40" name="u_demo_location" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="field_2" max_length="40" name="u_field_2" type="string"/>
+        <element attributes="import_attribute_name=HHD Identifier,edge_encryption_enabled=true" label="HHD Identifier" max_length="40" name="u_hhd_identifier" type="string"/>
+        <element attributes="import_attribute_name=Prototype Number,edge_encryption_enabled=true" label="Prototype Number" max_length="40" name="u_prototype_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="#" max_length="40" name="u__" type="string"/>
+    </element>
+</database>

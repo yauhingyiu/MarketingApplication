@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>84f0dde9db6632009bdb5740cf9619e3</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_122591_marketing_attendee">
+    <x_122591_marketing_attendee action="INSERT_OR_UPDATE">
+        <email>mary6@gmail.com</email>
+        <first_name>mary6</first_name>
+        <last_name>chan</last_name>
+        <marketing_event display_value="Dallas LUG">3212bb11db2632009bdb5740cf9619d3</marketing_event>
+        <phone/>
+        <sales_prospect>false</sales_prospect>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-05-05 10:24:23</sys_created_on>
+        <sys_id>84f0dde9db6632009bdb5740cf9619e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-05-05 10:24:23</sys_updated_on>
+        <u_boolean_1>false</u_boolean_1>
+    </x_122591_marketing_attendee>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-05-11 09:27:51</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>299d37d3db2272009bdb5740cf96198d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>mary6@gmail.com</sys_name>
+        <sys_package display_value="Marketing Events Application" source="x_122591_marketing">d85d079ddb2232009bdb5740cf961963</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Marketing Events Application">d85d079ddb2232009bdb5740cf961963</sys_scope>
+        <sys_update_name>sys_metadata_link_299d37d3db2272009bdb5740cf96198d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-05-11 09:27:51</sys_updated_on>
+        <tablename>x_122591_marketing_attendee</tablename>
+    </sys_metadata_link>
+</record_update>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_processor">
+    <sys_processor action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <description>Calculate the attendance of a marketing event</description>
+        <interactive>false</interactive>
+        <name>getAttendance</name>
+        <parameters>mrkevent</parameters>
+        <params_endpoint>x_122591_marketing_mrkevent</params_endpoint>
+        <path>getAttendance</path>
+        <path_endpoint>x_122591_marketing_getAttendance</path_endpoint>
+        <require_csrf>false</require_csrf>
+        <roles/>
+        <script><![CDATA[(function process(g_request, g_response, g_processor) {
+
+	g_response.setContentType('text/html;charset=UTF-8');
+
+	//Get Sys ID from URL parameter
+	var sid = g_request.getParameter('x_122591_marketing_mrkevent');
+	var phone = g_request.getParameter('phone');
+
+	//Look up marketing event name from Sys ID
+	var gr = new GlideRecord('x_122591_marketing_marketing_event');
+	gr.get(sid);
+	var name = gr.name;
+
+	//Check ACLs before querying
+	if(gr.canRead()) 
+	{
+		var numOfAttendees = 0;
+		var attendees = new GlideAggregate('x_122591_marketing_attendee');
+		attendees.addQuery('marketing_event', sid);
+		attendees.addAggregate('COUNT');
+		attendees.query();
+		if(attendees.next())
+		{
+			numOfAttendees = attendees.getAggregate('COUNT');
+		}
+		g_processor.writeOutput('Marketing event ' + name + ' has ' + numOfAttendees + ' attendees, call '+phone);
+	}
+	else
+	{
+		g_processor.writeOutput('Access denied');
+	}
+	
+
+})(g_request, g_response, g_processor);]]></script>
+        <sys_class_name>sys_processor</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-05-11 07:00:10</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>486b93dbdbee32009bdb5740cf9619af</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>getAttendance</sys_name>
+        <sys_package display_value="Marketing Events Application" source="x_122591_marketing">d85d079ddb2232009bdb5740cf961963</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Marketing Events Application">d85d079ddb2232009bdb5740cf961963</sys_scope>
+        <sys_update_name>sys_processor_486b93dbdbee32009bdb5740cf9619af</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-05-11 08:33:21</sys_updated_on>
+        <type>script</type>
+    </sys_processor>
+</record_update>

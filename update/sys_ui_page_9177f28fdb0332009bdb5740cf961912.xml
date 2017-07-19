@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script/>
+        <description>yhy test</description>
+        <direct>false</direct>
+        <endpoint>x_122591_marketing_angular_page1.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.12/angular.min.js"></script>
+	<script src="x_122591_marketing.angular_app_client_lo.jsdbx"></script>
+	
+	<link 
+		href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" 
+		integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"></link>
+	<div ng-app="angularapp" ng-controller="AngularAppCtrl as appctrl">
+		<input type="text" ng_model="myvar" placeholder="Please enter something" />
+		<p></p>
+		<div class="jumbotrom">
+			<h1 class="display-3">Hello</h1>
+			<hr class="m-y-2" />
+			<p>{{myvar}}</p>
+		</div>
+	
+		<button ng-click="clearTxt()" type="btn" class="btn btn-primary">Clear</button>
+	</div>
+	
+	
+</j:jelly>]]></html>
+        <name>angular_page1</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-06-04 06:15:41</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>9177f28fdb0332009bdb5740cf961912</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>angular_page1</sys_name>
+        <sys_package display_value="Marketing Events Application" source="x_122591_marketing">d85d079ddb2232009bdb5740cf961963</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Marketing Events Application">d85d079ddb2232009bdb5740cf961963</sys_scope>
+        <sys_update_name>sys_ui_page_9177f28fdb0332009bdb5740cf961912</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-06-04 07:01:53</sys_updated_on>
+    </sys_ui_page>
+</record_update>

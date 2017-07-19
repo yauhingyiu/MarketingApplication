@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" label="Tb Sakatsuku Player" max_length="40" name="x_122591_marketing_tb_sakatsuku_player" type="collection">
+        <element display="true" label="name" max_length="50" name="name" type="string"/>
+        <element label="Player version" max_length="20" name="player_version" type="string"/>
+        <element choice="1" default="3" hint="The higher the rarity, the higher the ability." label="Rarity" mandatory="true" max_length="40" name="rarity" type="integer">
+            <choice>
+                <element label="1 Star" sequence="0" value="1"/>
+                <element label="2 Star" sequence="1" value="2"/>
+                <element label="3 Star" sequence="2" value="3"/>
+                <element label="4 Star" sequence="3" value="4"/>
+                <element label="5 Star" sequence="4" value="5"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Real Rarity" max_length="40" name="realrarity" type="string">
+            <choice/>
+        </element>
+        <element label="skill01" max_length="40" name="skill01" type="string"/>
+        <element label="skill02" max_length="40" name="skill02" type="string"/>
+    </element>
+</database>

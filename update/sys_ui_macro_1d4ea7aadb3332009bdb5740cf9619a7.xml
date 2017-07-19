@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_macro">
+    <sys_ui_macro action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <description>sub table using by forms</description>
+        <media_type/>
+        <name>macro_table1</name>
+        <scoped_name>x_122591_marketing_macro_table1</scoped_name>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-07-10 03:46:52</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>1d4ea7aadb3332009bdb5740cf9619a7</sys_id>
+        <sys_mod_count>60</sys_mod_count>
+        <sys_name>macro_table1</sys_name>
+        <sys_package display_value="Marketing Events Application" source="x_122591_marketing">d85d079ddb2232009bdb5740cf961963</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Marketing Events Application">d85d079ddb2232009bdb5740cf961963</sys_scope>
+        <sys_update_name>sys_ui_macro_1d4ea7aadb3332009bdb5740cf9619a7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-07-10 10:47:00</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+<div>
+	<table>
+		<tr>
+			<td>column 1</td>
+			<td>column 2</td>
+			<td>column 3</td>
+		</tr>
+		<tr>
+			<td><input type="text" id="value0_0" value="0" size="20"/></td>
+			<td><input type="text" id="value0_1" value="1" size="20"/></td>
+			<td>
+				<input type="text" id="value0_2" value="" size="20"/></td>
+			
+		</tr>
+	</table>
+	<input type="button" value="click" onclick="showValue()"/>
+</div>
+
+	
+<script>
+	//alert(document.getElementById('value0_0').value);
+	function showValue()
+	{
+		alert(g_form.getValue('dept'));
+		//alert(g_form.getValue('dept').value);
+	}
+</script>
+	
+</j:jelly>]]></xml>
+    </sys_ui_macro>
+</record_update>

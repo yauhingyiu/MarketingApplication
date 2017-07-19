@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="cuhk_guest_user_sub1" max_length="40" name="x_122591_marketing_cuhk_guest_user_sub1" type="collection">
+        <element choice="1" label="Any IP restriction to the above URL" max_length="40" name="any_ip_restriction_to_the_above_url" type="choice">
+            <choice>
+                <element label="yes" sequence="100" value="yes"/>
+                <element label="no" sequence="200" value="no"/>
+            </choice>
+        </element>
+        <element label="Cuhk Guest User" mandatory="true" max_length="32" name="cuhk_guest_user" reference="x_122591_marketing_cuhk_guest_user" type="reference"/>
+        <element label="Login URL for this user type/role" max_length="200" name="login_url_for_this_user_type_role" type="string"/>
+        <element label="Name of user type/role" max_length="50" name="name_of_user_type_role" type="string"/>
+        <element label="Password" max_length="50" name="password" type="string"/>
+        <element label="Username" max_length="50" name="username" type="string"/>
+        <element label="User role description" max_length="200" name="user_role_description" type="string"/>
+        <index name="index">
+            <element name="cuhk_guest_user"/>
+        </index>
+    </element>
+</database>

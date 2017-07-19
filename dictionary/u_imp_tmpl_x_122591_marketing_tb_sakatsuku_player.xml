@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Imp Tmpl X 122591 Marketing Tb Sakatsuku Player" max_length="40" name="u_imp_tmpl_x_122591_marketing_tb_sakatsuku_player" type="collection">
+        <element attributes="import_attribute_name=Name,edge_encryption_enabled=true" label="Name" max_length="50" name="u_name" type="string"/>
+        <element attributes="import_attribute_name=Player version,edge_encryption_enabled=true" label="Player version" max_length="20" name="u_player_version" type="string"/>
+        <element attributes="import_attribute_name=Rarity,edge_encryption_enabled=true" label="Rarity" max_length="40" name="u_rarity" type="string"/>
+        <element attributes="import_attribute_name=Real Rarity,edge_encryption_enabled=true" label="Real Rarity" max_length="40" name="u_real_rarity" type="string"/>
+        <element attributes="import_attribute_name=Skill01,edge_encryption_enabled=true" label="Skill01" max_length="40" name="u_skill01" type="string"/>
+        <element attributes="import_attribute_name=Skill02,edge_encryption_enabled=true" label="Skill02" max_length="40" name="u_skill02" type="string"/>
+    </element>
+</database>

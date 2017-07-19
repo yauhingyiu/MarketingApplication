@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="cmdb_ci" label="HHD Prototype" max_length="40" name="x_122591_marketing_hhd_prototype" type="collection">
+        <element label="Assigned Development Group" max_length="32" name="assigned_development_group" reference="sys_user_group" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="HHD Identifier" max_length="40" name="hhd_identifier" type="string"/>
+        <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Prototype Evangelist" max_length="32" name="prototype_evangelist" reference="sys_user" type="reference"/>
+        <element label="Prototype Notes" max_length="4000" name="prototype_notes" type="journal"/>
+        <element attributes="edge_encryption_enabled=true" label="Prototype Number" max_length="40" name="prototype_number" type="string"/>
+        <index name="index">
+            <element name="prototype_evangelist"/>
+        </index>
+        <index name="index2">
+            <element name="prototype_number"/>
+        </index>
+        <index name="index3">
+            <element name="assigned_development_group"/>
+        </index>
+    </element>
+</database>

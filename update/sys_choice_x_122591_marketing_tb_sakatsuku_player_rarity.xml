@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="rarity" table="x_122591_marketing_tb_sakatsuku_player" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rarity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1 Star</label>
+            <language>en</language>
+            <name>x_122591_marketing_tb_sakatsuku_player</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-25 01:08:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a991d6b7dbfa32009bdb5740cf96192e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-25 01:08:39</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rarity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2 Star</label>
+            <language>en</language>
+            <name>x_122591_marketing_tb_sakatsuku_player</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-25 01:08:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2191d6b7dbfa32009bdb5740cf96192f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-25 01:08:39</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rarity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>3 Star</label>
+            <language>en</language>
+            <name>x_122591_marketing_tb_sakatsuku_player</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-25 01:08:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2591d6b7dbfa32009bdb5740cf96192f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-25 01:08:39</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rarity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>4 Star</label>
+            <language>en</language>
+            <name>x_122591_marketing_tb_sakatsuku_player</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-25 01:08:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2991d6b7dbfa32009bdb5740cf96192f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-25 01:08:39</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rarity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>5 Star</label>
+            <language>en</language>
+            <name>x_122591_marketing_tb_sakatsuku_player</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-25 01:08:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2d91d6b7dbfa32009bdb5740cf96192f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-25 01:08:39</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>rarity</element>
+            <name>x_122591_marketing_tb_sakatsuku_player</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-25 01:08:39</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>6d91d6b7dbfa32009bdb5740cf96192e</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>rarity</sys_name>
+            <sys_package display_value="Marketing Events Application" source="x_122591_marketing">d85d079ddb2232009bdb5740cf961963</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Marketing Events Application">d85d079ddb2232009bdb5740cf961963</sys_scope>
+            <sys_update_name>sys_choice_x_122591_marketing_tb_sakatsuku_player_rarity</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-25 01:08:39</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
